@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.Library", "NAudio.Library\NAudio.Library.csproj", "{474A0DB1-F353-4E23-808B-475F6E780FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.Test", "NAudio.Test\NAudio.Test.csproj", "{DFFDCC43-81A4-4AF7-8D95-9DC9F68A7161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474A0DB1-F353-4E23-808B-475F6E780FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474A0DB1-F353-4E23-808B-475F6E780FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474A0DB1-F353-4E23-808B-475F6E780FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474A0DB1-F353-4E23-808B-475F6E780FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFDCC43-81A4-4AF7-8D95-9DC9F68A7161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFDCC43-81A4-4AF7-8D95-9DC9F68A7161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFDCC43-81A4-4AF7-8D95-9DC9F68A7161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFDCC43-81A4-4AF7-8D95-9DC9F68A7161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Without.Systems.NAudio.Library</AssemblyName>
+        <RootNamespace>Without.Systems.NAudio</RootNamespace>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AWSSDK.S3" Version="3.7.405.9" />
+        <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\FileMerger.png" />
+      <EmbeddedResource Include="Resources\FileMerger.png" />
+    </ItemGroup>
+
+</Project>
