@@ -32,6 +32,10 @@ public class NAudio : INAudio
                 BucketName = request.OutputS3Bucket,
                 InputStream = outputStream
             };
+            if (!string.IsNullOrEmpty(request.OutputS3ContentDisposition))
+            {
+                saveRequest.Headers.ContentDisposition  = request.OutputS3ContentDisposition;
+            }
 
             var saveResponse = AsyncUtil.RunSync(() => client.PutObjectAsync(saveRequest));
             ParseResponse(saveResponse);
